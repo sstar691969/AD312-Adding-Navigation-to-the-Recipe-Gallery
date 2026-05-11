@@ -1,11 +1,6 @@
 
-
 import { Link } from "react-router";
-
-const recipes = [
-  { id: 1, title: "Pasta", image: "/pasta.jpg" },
-  { id: 2, title: "Burger", image: "/burger.jpg" },
-];
+import { recipes } from "../data/recipes";
 
 export default function Gallery() {
   return (
